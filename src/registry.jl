@@ -569,4 +569,4 @@ add_format(format"HOA", UInt8[0x48,0x4f,0x41,0x3a], ".hoa", [:Buchi => UUID("484
 add_format(format"BA", (), ".ba", [:Buchi => UUID("484f28d2-1a9e-4e02-bb9b-910131567e8f")])
 
 # UFF (Universal File Format) files
-add_format(format"UFF", (), [".uff", ".unv"], [idUFFFiles])
+add_format(format"UFF", (), [".uff", ".unv", ".uf", ".bunv", ".ufb", ".buf"], [idUFFFiles])
